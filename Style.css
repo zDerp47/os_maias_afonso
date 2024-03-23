@@ -54,3 +54,18 @@ p {
 .button-container {
     text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+    header {
+         font-size: 18px;
+    }
+    .container {
+         padding: 10px;
+    }
+            .text-container {
+                margin-top: 10px;
+            }
+            .button-container {
+                margin-top: 10px;
+            }
+        }
